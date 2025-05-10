@@ -5,6 +5,12 @@
     "title": "Sample API",
     "description": "Buy or rent spacecrafts"
   },
+  "servers": [
+    {
+      "url": "https://localhost:6001/v1",
+      "description": "Development server"
+    }
+  ],
   "paths": {
     "/spacecrafts/{spacecraftId}": {
       "parameters": [
